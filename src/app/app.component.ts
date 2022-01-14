@@ -5,24 +5,20 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'my-app',
   templateUrl: './app.component.html',
-  styleUrls: [ './app.component.css' ]
+  styleUrls: ['./app.component.css'],
 })
-export class AppComponent  {
-  name = 'Employee Management Application';// + VERSION.major;
-  constructor(private router: Router){
+export class AppComponent {
+  name = 'Employee Management Application';
+  constructor(private router: Router) {
     console.log('appcomponent constructer');
   }
 
-  ngOnInit()
-  {    
-  } 
+  ngOnInit() {}
 
-  gotoHome()
-  {
+  gotoHome() {
     this.router.navigate(['']);
   }
-  gotoAddemployee()
-  {    
+  gotoAddemployee() {
     this.router.navigate(['app-add-employee']);
   }
 }

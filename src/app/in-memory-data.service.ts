@@ -9,28 +9,28 @@ export class InMemoryDataService implements InMemoryDbService {
   createDb() {
     const dbEmployees: Employee[] = [
       {
-        name: 'Poonam',
+        name: 'Yashvi',
         id: 1,
-        location: 'Bangalore',
-        mobile: 7653452654,
+        location: 'Pune',
+        mobile: 8851610666,
       },
       {
-        name: 'Aditi',
+        name: 'Koushik',
         id: 2,
-        location: 'Noida',
-        mobile: 9876754345,
+        location: 'Bangalore',
+        mobile: 9899657890,
       },
       {
         id: 3,
-        name: 'Aswathi',
+        name: 'Aditya',
         location: 'Delhi',
-        mobile: 9987675634,
+        mobile: 9876543210,
       },
       {
-        name: 'Priya',
+        name: 'Pallavi',
         id: 4,
         location: 'Kerala',
-        mobile: 7710423451,
+        mobile: 9087654321,
       },
     ];
     return { dbEmployees };

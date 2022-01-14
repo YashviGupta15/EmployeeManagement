@@ -1,6 +1,6 @@
 export class Employee {
-  name:string;
+  name: string;
   id: number;
-  location:string;
-  mobile:number;
+  location: string;
+  mobile: number;
 }

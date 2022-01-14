@@ -1,35 +1,23 @@
-.tableCss            
-{
-    border: solid 1px #e6e5e5;
+.tableCss {
+  border: solid 1px #e6e5e5;
 }
-            
-/*for header*/
-.tableCss thead
-{
-    background-color: #0094ff;
-    color:#fff;
-    padding: 10px;
-    text-align:center;
+
+.tableCss thead {
+  background-color: #0094fd;
+  color: rgb(2, 0, 0);
+  padding: 10px;
 }
-            
-.tableCss td
-{
-    border: solid 1px #e6e5e5;
-    padding: 10px;
+
+.tableCss td {
+  border: solid 1px #0a6669;
+  padding: 10px;
 }
-            
-/*for footer*/
-/* .tabTask tfoot
-{
-    background-color: #000;
-    color: #fff;
-    padding: 10px;
-} */
-            
-/*for body*/
-/* .tabTask tbody
-{
-    background-color: #e9e7e7;
-    color: #000;
-    padding: 10px;
-} */
+
+table {
+    width: 100%;
+    text-align: center;
+}
+
+input {
+    width: 50%;
+}
